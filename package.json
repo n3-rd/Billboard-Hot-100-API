@@ -1,0 +1,16 @@
+{
+  "name": "hot100",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "billboard-top-100": "^2.6.5",
+    "express": "^4.18.1",
+    "luxon": "^3.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
