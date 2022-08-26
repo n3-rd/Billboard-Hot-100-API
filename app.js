@@ -23,12 +23,8 @@ app.get("/charts",(req,res)=>{
         if (err) console.log(err);
 
         res.send(chart);
-    }).then(data=>{
-        console.log(data);
-    }).catch(err=>{
-        console.log(err);
+    });
     }
-    )}
 })
 
 
